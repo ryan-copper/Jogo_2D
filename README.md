@@ -8,3 +8,5 @@ Jogo para a aula do titio Vini
 17/09 - Na aula de hoje, o professor Vinícius nos ensinou a fazer um script de movimento e pulo.
 
 22/09 - Na aula de hoje, deixamos o pulo do player só quando o player está encostando no chão.
+
+24/09 - Na aula de hoje, fizemos o cenário para o nosso jogo
