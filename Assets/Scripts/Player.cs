@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public float speed = 5f;
@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     {
         float movehorizontal = Input.GetAxis("Horizontal");
 
-        rb.linearVelocity = new Vector2(movehorizontal * speed, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(movehorizontal * speed, rb.linearVelocity.y); //Faz o player se movimentar somente na horizontal
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
         {
@@ -30,6 +30,11 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             IsGrounded = true; //Vai reconhecer quando o jogador estiver encostando no chão
+        }
+
+        if (collision.gameObject.CompareTag("Dano"))
+        {
+            SceneManager.LoadScene(0); //reseta a fase quando o player encosta em um objeto com a tag "Dano"
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
