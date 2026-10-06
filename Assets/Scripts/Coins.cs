@@ -12,6 +12,6 @@ public class Coins : MonoBehaviour
             Destroy(this.gameObject);
             Debug.Log("Você coletou uma moeda");
             moedas++; 
-        }
+        }   
     }
 }
