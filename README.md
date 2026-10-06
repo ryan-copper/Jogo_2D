@@ -12,3 +12,5 @@ Jogo para a aula do titio Vini
 24/09 - Na aula de hoje, fizemos o cenário para o nosso jogo
 
 29/09 - Na aula de hoje, terminamos a primeira fase do nosso jogo e eu fiz alguns sprites
+
+06/10 - Na aula de hoje, finalizamos a fase e fizemos uma mecânica para o nosso jogo (no meu caso, mecânica de coletar moedas)
