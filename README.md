@@ -14,3 +14,5 @@ Jogo para a aula do titio Vini
 29/09 - Na aula de hoje, terminamos a primeira fase do nosso jogo e eu fiz alguns sprites
 
 06/10 - Na aula de hoje, finalizamos a fase e fizemos uma mecânica para o nosso jogo (no meu caso, mecânica de coletar moedas)
+
+08/10 - Na aula de hoje, fizemos uma pesquisa sobre as funcionalidades do SceneManagement e uma meânia que implementava algum dos recursos (exceto LoadScene)
