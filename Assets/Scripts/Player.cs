@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Dano"))
         {
-            SceneManager.LoadScene(0); //reseta a fase quando o player encosta em um objeto com a tag "Dano"
+            SceneManager.LoadScene(0);
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
