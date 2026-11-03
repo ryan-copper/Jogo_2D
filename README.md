@@ -16,3 +16,5 @@ Jogo para a aula do titio Vini
 06/10 - Na aula de hoje, finalizamos a fase e fizemos uma mecânica para o nosso jogo (no meu caso, mecânica de coletar moedas)
 
 08/10 - Na aula de hoje, fizemos uma pesquisa sobre as funcionalidades do SceneManagement e uma meânia que implementava algum dos recursos (exceto LoadScene)
+
+15/10 - Na aula de hoje, fizemos uma interface para a tela de morte e o botão e restart da fase
