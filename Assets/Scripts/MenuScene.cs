@@ -1,6 +1,5 @@
 using UnityEditor.SceneManagement;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MenuScene : MonoBehaviour
 {
@@ -51,7 +50,7 @@ public class MenuScene : MonoBehaviour
     }
     public void MostrarGameOver()
     {
-        jogoacabou = true;  
+        jogoacabou = true;
         painelGameOver.SetActive(true);
         Time.timeScale = 0f;
     }
