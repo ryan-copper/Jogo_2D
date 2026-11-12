@@ -34,7 +34,22 @@ public class SceneManager : MonoBehaviour
         throw new NotImplementedException();
     }
 
+    internal static void LoadScene(int v, string name)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static int GetActiveScene()
+    {
+        throw new NotImplementedException();
+    }
+
     internal static void LoadScene(int v)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static void LoadScene(object name)
     {
         throw new NotImplementedException();
     }

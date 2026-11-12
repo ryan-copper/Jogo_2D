@@ -1,5 +1,5 @@
+using UnityEditor.SceneManagement;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public float speed = 5f;
@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
 
     private bool IsGrounded = false;
+
+    public MenuScene menu;
 
     void Start()
     {
@@ -25,7 +27,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
@@ -34,10 +36,10 @@ public class Player : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Dano"))
         {
-            SceneManager.LoadScene(0);
+            menu.MostrarGameOver(); //Vai Mostrar a tela de Game Over
         }
     }
-    private void OnCollisionExit2D(Collision2D collision)
+   void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
