@@ -38,6 +38,10 @@ public class Player : MonoBehaviour
         {
             menu.MostrarGameOver(); //Vai Mostrar a tela de Game Over
         }
+        if (collision.gameObject.CompareTag("EndPhase"))
+        {
+            menu.MostrarVitoria();
+        }
     }
    void OnCollisionExit2D(Collision2D collision)
     {
