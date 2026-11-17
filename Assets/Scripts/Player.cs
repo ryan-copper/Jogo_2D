@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("EndPhase"))
         {
-            menu.MostrarVitoria();
+            menu.MostrarVitoria(); //Vai Mostrar a tela de Vitóra
         }
     }
    void OnCollisionExit2D(Collision2D collision)

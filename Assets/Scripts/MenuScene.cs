@@ -60,14 +60,34 @@ public class MenuScene : MonoBehaviour
         painelVitoria.SetActive(true);
         Time.timeScale = 0f;
     }
-    public void Reiniciar()
+    public void ReiniciarFase1()
     {
         Time.timeScale = 1f;
         EditorSceneManager.LoadScene("level1");
     }
-    public void PassarFase()
+    public void ReiniciarFase2()
+    {
+        Time.timeScale = 1f;
+        EditorSceneManager.LoadScene("level2");
+    }
+    public void ReiniciarFase3()
+    {
+        Time.timeScale = 1f;
+        EditorSceneManager.LoadScene("level3");
+    }
+    public void PassarFase1()
     {
         Time.timeScale = 1f;
         EditorSceneManager.LoadScene(2);
+    }
+    public void PassarFase2()
+    {
+        Time.timeScale = 1f;
+        EditorSceneManager.LoadScene(3);
+    }
+    public void VoltarMenu()
+    {
+        Time.timeScale = 1f;
+        EditorSceneManager.LoadScene(0);
     }
 }
