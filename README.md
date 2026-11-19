@@ -18,3 +18,5 @@ Jogo para a aula do titio Vini
 08/10 - Na aula de hoje, fizemos uma pesquisa sobre as funcionalidades do SceneManagement e uma meânia que implementava algum dos recursos (exceto LoadScene)
 
 15/10 - Na aula de hoje, fizemos uma interface para a tela de morte e o botão e restart da fase
+
+19/11 - Fizemos um scirpt para que a câmera siga o Player e terminamos o jogo e o Prof. Vinicius
